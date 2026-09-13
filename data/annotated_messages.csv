@@ -1,0 +1,25 @@
+Message,Intent,Sentiment,Priority,Entities
+My order is late,DELIVERY_ISSUE,NEGATIVE,HIGH,
+I want a refund for my order,REFUND_REQUEST,NEUTRAL,MEDIUM,
+I was charged twice,PAYMENT_ISSUE,NEGATIVE,HIGH,
+I forgot my password,ACCOUNT_ISSUE,NEUTRAL,LOW,
+My headphones are broken,PRODUCT_ISSUE,NEGATIVE,MEDIUM,
+How can I track my order?,DELIVERY_ISSUE,NEUTRAL,LOW,
+The product is excellent,PRODUCT_ISSUE,POSITIVE,LOW,
+I need my money back,REFUND_REQUEST,NEGATIVE,MEDIUM,
+My payment failed,PAYMENT_ISSUE,NEGATIVE,HIGH,
+How do I change my password?,ACCOUNT_ISSUE,NEUTRAL,LOW,
+My laptop is damaged,PRODUCT_ISSUE,NEGATIVE,HIGH,
+When will my package arrive?,DELIVERY_ISSUE,NEUTRAL,LOW,
+I am very happy with the phone,PRODUCT_ISSUE,POSITIVE,LOW,
+Please process my refund,REFUND_REQUEST,NEUTRAL,MEDIUM,
+My card was charged twice,PAYMENT_ISSUE,NEGATIVE,HIGH,
+I cannot login to my account,ACCOUNT_ISSUE,NEGATIVE,MEDIUM,
+My phone screen is broken,PRODUCT_ISSUE,NEGATIVE,HIGH,
+Where is my delivery?,DELIVERY_ISSUE,NEGATIVE,MEDIUM,
+I want to know about your products,GENERAL_QUERY,NEUTRAL,LOW,
+Can you help me with my account?,ACCOUNT_ISSUE,NEUTRAL,LOW,
+My phone is broken and I need help immediately.,PRODUCT_ISSUE,NEGATIVE,MEDIUM,PRODUCT: phone
+"“My phone arrived late yesterday, and although it is working now, I was charged ₹1,500 extra. I’m disappointed and need the extra amount refunded immediately. Order #A10245 should be delivered to Chennai.”",REFUND_REQUEST,NEGATIVE,HIGH,"ORDER_ID: #A10245, AMOUNT: ₹1,500, LOCATION: Chennai, PRODUCT: phone"
+My phone is broken and I need help immediately.,PRODUCT_ISSUE,NEGATIVE,LOW,PRODUCT: phone
+"My phone arrived late yesterday, and although it is working now, I was charged ₹1,500 extra. I’m disappointed and need the extra amount refunded immediately. Order #A10245 should be delivered to Chennai.",REFUND_REQUEST,NEGATIVE,HIGH,"ORDER_ID: #A10245, AMOUNT: ₹1,500, LOCATION: Chennai, PRODUCT: phone"
